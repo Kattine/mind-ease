@@ -1,0 +1,101 @@
+{
+  "anxiety": {
+    "low": {
+      "title": "Gentle Anxiety Relief",
+      "steps": [
+        "Try the 4-7-8 breathing technique: inhale for 4 seconds, hold for 7, exhale for 8. Repeat 3 times.",
+        "Write down what's worrying you, then ask: 'What's the worst that could happen? Can I handle it?'",
+        "5-minute mindfulness: focus on the physical sensation of your feet on the floor."
+      ],
+      "affirmation": "Anxiety is a signal, not a verdict. You have the strength to navigate this."
+    },
+    "high": {
+      "title": "Acute Anxiety First Aid",
+      "steps": [
+        "54321 grounding: name 5 things you see, 4 you can touch, 3 you hear, 2 you smell, 1 you taste.",
+        "Splash cold water on your face or hold ice for 20 seconds to activate your parasympathetic nervous system.",
+        "Text or call someone you trust — sharing the feeling reduces its intensity."
+      ],
+      "affirmation": "This feeling will pass. You are safe right now."
+    }
+  },
+  "sadness": {
+    "low": {
+      "title": "Lifting Low Mood",
+      "steps": [
+        "Give yourself permission to feel sad for 10 minutes — set a timer, then do one small kind act for yourself.",
+        "Listen to a song that resonates with how you feel; let the emotion move through you.",
+        "Take a 15-minute walk outside, no destination needed."
+      ],
+      "affirmation": "Feeling sad is part of being human. Your feelings are valid and they matter."
+    },
+    "high": {
+      "title": "Deep Grief Support",
+      "steps": [
+        "Don't carry this alone — reach out to a friend, family member, or counsellor.",
+        "Write about what you've lost and what it meant to you; grief needs a witness.",
+        "If this heaviness has lasted more than two weeks, consider speaking with a mental health professional."
+      ],
+      "affirmation": "Grief is love with nowhere to go. Asking for help is courage, not weakness."
+    }
+  },
+  "anger": {
+    "low": {
+      "title": "Cooling Mild Frustration",
+      "steps": [
+        "Count to 10 silently before responding — give your prefrontal cortex time to catch up.",
+        "Take a brisk 10-minute walk to burn off the adrenaline.",
+        "Use the 'I feel… because… I need…' framework to express what's really going on."
+      ],
+      "affirmation": "Your anger points to something you care about. Listen to what it's telling you."
+    },
+    "high": {
+      "title": "Defusing Intense Anger",
+      "steps": [
+        "Leave the situation physically — distance helps you de-escalate faster than willpower alone.",
+        "Do intense exercise (push-ups, sprinting) to metabolise the stress hormones.",
+        "Wait until you're calm before addressing the issue — decisions made in anger are often regretted."
+      ],
+      "affirmation": "You can feel angry and still choose how to respond. That gap is your power."
+    }
+  },
+  "stress": {
+    "low": {
+      "title": "Everyday Stress Management",
+      "steps": [
+        "List everything on your mind, then pick only your top 3 priorities for today.",
+        "Try the Pomodoro technique: 25 minutes focused work, 5-minute break.",
+        "Protect 15 minutes each day for unscheduled rest — do nothing intentionally."
+      ],
+      "affirmation": "You don't need to solve everything at once. One step at a time is enough."
+    },
+    "high": {
+      "title": "High-Stress Emergency Reset",
+      "steps": [
+        "Stop everything. Take 5 slow, deep breaths — in through the nose, out through the mouth.",
+        "Ask yourself: 'Will this matter in 5 years?' — perspective is a powerful reset.",
+        "Do just one important thing today; give yourself permission to defer the rest."
+      ],
+      "affirmation": "You've been working so hard. Rest isn't giving up — it's how you keep going."
+    }
+  },
+  "neutral": {
+    "low": {
+      "title": "Maintaining Emotional Balance",
+      "steps": [
+        "Write down three things you're grateful for today, however small.",
+        "Do one thing purely for enjoyment today — no productivity attached.",
+        "Reach out to someone you haven't spoken to in a while."
+      ],
+      "affirmation": "Calm is a gift. Cherish this moment of steadiness."
+    },
+    "high": {
+      "title": "Sustaining Positive Momentum",
+      "steps": [
+        "Reflect on what's going well — anchor your wellbeing in what's working.",
+        "Channel this good energy into something creative or meaningful."
+      ],
+      "affirmation": "You're in a good place. Keep nurturing what brought you here."
+    }
+  }
+}

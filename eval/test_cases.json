@@ -1,0 +1,72 @@
+[
+  {
+    "id": "tc001",
+    "input": "I've been under so much pressure at work lately — deadlines everywhere, I feel like I'm about to break.",
+    "expected_emotion": "stress",
+    "expected_tools": ["analyze_emotion", "get_coping_strategy", "search_music", "log_mood"],
+    "expected_intensity": "high"
+  },
+  {
+    "id": "tc002",
+    "input": "Today was fine, just a bit bored honestly.",
+    "expected_emotion": "neutral",
+    "expected_tools": ["analyze_emotion"],
+    "expected_intensity": "low"
+  },
+  {
+    "id": "tc003",
+    "input": "My partner and I broke up. I feel completely heartbroken and don't want to do anything.",
+    "expected_emotion": "sadness",
+    "expected_tools": ["analyze_emotion", "get_coping_strategy", "search_music", "log_mood"],
+    "expected_intensity": "high"
+  },
+  {
+    "id": "tc004",
+    "input": "My colleague keeps stealing credit for my work. I'm absolutely furious.",
+    "expected_emotion": "anger",
+    "expected_tools": ["analyze_emotion", "get_coping_strategy", "search_music"],
+    "expected_intensity": "high"
+  },
+  {
+    "id": "tc005",
+    "input": "I have a job interview tomorrow and I'm a little nervous about it.",
+    "expected_emotion": "anxiety",
+    "expected_tools": ["analyze_emotion", "get_coping_strategy"],
+    "expected_intensity": "low"
+  },
+  {
+    "id": "tc006",
+    "input": "Thank you so much, I feel much better now.",
+    "expected_emotion": "neutral",
+    "expected_tools": ["log_mood"],
+    "expected_intensity": "low"
+  },
+  {
+    "id": "tc007",
+    "input": "I can't sleep at night — my mind just won't stop, I feel so anxious all the time.",
+    "expected_emotion": "anxiety",
+    "expected_tools": ["analyze_emotion", "get_coping_strategy", "search_music", "log_mood"],
+    "expected_intensity": "high"
+  },
+  {
+    "id": "tc008",
+    "input": "It's sunny today and I went for a walk. Feeling pretty good.",
+    "expected_emotion": "neutral",
+    "expected_tools": ["log_mood"],
+    "expected_intensity": "low"
+  },
+  {
+    "id": "tc009",
+    "input": "I feel so lonely. Nobody seems to care about me.",
+    "expected_emotion": "sadness",
+    "expected_tools": ["analyze_emotion", "get_coping_strategy", "search_music", "log_mood"],
+    "expected_intensity": "high"
+  },
+  {
+    "id": "tc010",
+    "input": "I'm a bit worried about my health — going for tests next week.",
+    "expected_emotion": "anxiety",
+    "expected_tools": ["analyze_emotion", "get_coping_strategy"],
+    "expected_intensity": "low"
+  }
+]
