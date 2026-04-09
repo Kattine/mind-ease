@@ -105,7 +105,7 @@ Results from the included run: **97.5% tool recall, 70% emotion accuracy, 4.0 av
 ```
 mental-health-agent/
 ├── agent/
-│   ├── agent_loop.py     # Hand-written Plan → Tool → Respond loop
+│   ├── agent_loop.py     # Plan → Tool → Respond loop
 │   ├── tools.py          # All four tools
 │   └── prompts.py        # System prompt with few-shot examples
 ├── data/
@@ -124,8 +124,6 @@ mental-health-agent/
 ## Design Decisions
 
 **Local model over cloud API.** Ollama keeps everything on-device with no quota limits and no user data leaving the machine — which matters for a mental wellness context.
-
-**No agent framework.** The loop in `agent_loop.py` is plain Python. This makes the tool-call format, retry behaviour, and nudge mechanism easy to inspect and customise.
 
 **Dynamic music tool.** Rather than returning a static script, `search_music` calls the iTunes API on every turn and returns a real, playable song. This demonstrates live JSON parsing and is the most distinctive feature of the agent.
 
